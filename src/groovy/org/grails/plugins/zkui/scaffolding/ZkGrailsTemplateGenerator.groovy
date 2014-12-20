@@ -351,4 +351,13 @@ class ZkGrailsTemplateGenerator implements GrailsTemplateGenerator, ResourceLoad
     void generateTest(GrailsDomainClass domainClass, String destDir) throws IOException {
         //do nothing
     }
+    
+	void generateRestfulController(GrailsDomainClass domainClass, String destDir){
+		//do nothing
+	}
+	
+	void generateRestfulTest(GrailsDomainClass domainClass, String destDir){
+		//do nothing
+	}
+
 }
